@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CRUD-redux_toolkit/static/css/main.f5c0a4c0.css",
+    "main.js": "/CRUD-redux_toolkit/static/js/main.78e9083e.js",
+    "static/js/787.2843ca88.chunk.js": "/CRUD-redux_toolkit/static/js/787.2843ca88.chunk.js",
+    "static/media/no-data-concept-illustration_114360-536.avif": "/CRUD-redux_toolkit/static/media/no-data-concept-illustration_114360-536.39953e85d495035d4ce8.avif",
+    "index.html": "/CRUD-redux_toolkit/index.html",
+    "main.f5c0a4c0.css.map": "/CRUD-redux_toolkit/static/css/main.f5c0a4c0.css.map",
+    "main.78e9083e.js.map": "/CRUD-redux_toolkit/static/js/main.78e9083e.js.map",
+    "787.2843ca88.chunk.js.map": "/CRUD-redux_toolkit/static/js/787.2843ca88.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5c0a4c0.css",
+    "static/js/main.78e9083e.js"
+  ]
+}
