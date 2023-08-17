@@ -1,0 +1,73 @@
+.user-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    width: 50%;
+    margin: auto;
+    height: 60vh;
+    margin-top: 100px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.user-form div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.user-form input {
+    height: 40px;
+    padding: 30px;
+    border: none;
+    outline: none;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.5) -3px -3px 6px 1px, rgb(204, 219, 232) 3px 3px 6px 0px inset;
+}
+
+
+.user-form button {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+
+}
+.user-form .submit {
+    display: flex;
+    gap: 20px;
+}
+.user-form button:hover,
+.user-form button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.user-form button:active {
+    opacity: .5;
+}
+
+@media(max-width:600px) {
+    .user-form {
+        width: 90%;
+    }
+
+    .user-form input {
+        width: 80%;
+    }
+}

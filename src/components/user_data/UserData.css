@@ -1,0 +1,76 @@
+.data {
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    width: 400px;
+    padding: 20px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.user-action {
+    display: flex;
+    gap: 10px;
+}
+
+.user-icon {
+    color: rgb(144, 174, 238);
+}
+
+.edit-btn,
+.delete-btn {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.delete-btn .user-action-icon {
+    color: #d20808;
+}
+
+.edit-btn .user-action-icon {
+    color: rgb(31, 7, 80);
+}
+
+
+.no-data-error {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-data-error img {
+    width: 600px;
+}
+
+.add-more {
+    margin: 50px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+@media(max-width:500px) {
+    .user {
+        width: 100%;
+    }
+
+    .no-data-error img {
+        width: 100%;
+    }
+}
